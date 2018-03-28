@@ -1,5 +1,21 @@
 ## Vue-Core-Image-Upload
 
+``` css
+// 调用页面需要使用 fixed 兼容ios
+.vue-core-image-upload {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  cursor: pointer;
+  font-size: 0;
+}
+```
+
 [![npm](https://img.shields.io/npm/v/vue-core-image-upload.svg?maxAge=2592000)]()
 
 
