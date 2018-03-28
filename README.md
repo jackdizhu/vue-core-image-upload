@@ -1,18 +1,21 @@
 ## Vue-Core-Image-Upload
 
 ``` css
-// 调用页面需要使用 fixed 兼容ios
+// 调用页面需要使用 fixed 兼容ios overflow: visible; 显式申明
 .vue-core-image-upload {
-  position: fixed;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 9999;
-  cursor: pointer;
-  font-size: 0;
+  position absolute
+  left 0
+  top 0
+  // width 200px
+  // height 20px
+  width 100%
+  height 100%
+  display block
+  z-index 99
+  cursor: pointer
+  font-size 0
+  // background #eee
+  overflow: visible;
 }
 ```
 
